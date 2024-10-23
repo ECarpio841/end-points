@@ -1,3 +1,6 @@
 package com.example.demo.model
 
-data class JSend()
+data class JSendResponse(
+    val status: String,
+    val data: Map<String, Any>? = null,
+)
